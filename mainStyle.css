@@ -1,22 +1,36 @@
 /*body { background-color: black} */
 .navmenu {
-    font-size: 40px;
-    background-color: rosybrown;
+    font-size: 20px;
+    background-color: palevioletred;
     justify-content: right;
     align-items: center;
     text-align: left;
+    height: 70px;
 }
 .divbutton{
     display: inline-block;
+    border: none;
+
+
+    
+}
+.summary{
+    display: inline-block;
+}
+.boton{
+    border: none;
+    border-radius: 15%;
 }
 .divmenu{
     display: inline-block;
+    border-radius: 5%;
     margin-right: 30px;
     float: right;
+    border: none;
+    background-color: transparent;
 }
 .imagen{
     display: inline-block;
     float: left;
     margin-right: 30px;
-
 }
