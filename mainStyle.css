@@ -1,44 +1,40 @@
 
 * {
-  background-color: #FAFAFA
+  background-color:#FAFAFA;
 }
 
-.navmenu {
-    font-size: 20px;
-    background-color: palevioletred;
-    justify-content: right;
-    align-items: center;
-    text-align: left;
-    height: 70px;
-}
-.divbutton {
-    display: inline-block;
-    border: none;
-
+.encabezado{
+  display: inline-block;
 
 
 }
-.summary {
-    display: inline-block;
+.logo{
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
 }
-.boton {
-    border: none;
-    border-radius: 15%;
+a{
+  text-decoration: none;
 }
-.divmenu{
-    display: inline-block;
-    border-radius: 5%;
-    margin-right: 30px;
-    float: right;
-    border: none;
-    background-color: transparent;
+.button{
+  border-radius: 8px;
 }
-.imagen{
-    display: inline-block;
-    float: left;
-    margin-right: 30px;
+.boton{
+  border:none;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+.sectionleft{
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  float:left;
+}
+.sectionright{
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  float:right;
+  position: fixed;
+  text-align: right;
+}
 
 .title {
   font-size: 70px;
@@ -82,8 +78,12 @@ display: flex;
 }
 
 .container-image {
+   
 }
-
+.imagenlateral{
+  width: 100px;
+  height: 100px;
+}
 .image-footer {
   width: 80px;
   margin-top: 90px;
