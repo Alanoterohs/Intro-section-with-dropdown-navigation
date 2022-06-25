@@ -1,1 +1,22 @@
 /*body { background-color: black} */
+.navmenu {
+    font-size: 40px;
+    background-color: rosybrown;
+    justify-content: right;
+    align-items: center;
+    text-align: left;
+}
+.divbutton{
+    display: inline-block;
+}
+.divmenu{
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+}
+.imagen{
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+
+}
