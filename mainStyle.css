@@ -1,4 +1,8 @@
-/*body { background-color: black} */
+
+* {
+  background-color: #FAFAFA
+}
+
 .navmenu {
     font-size: 20px;
     background-color: palevioletred;
@@ -12,7 +16,7 @@
     border: none;
 
 
-    
+
 }
 .summary{
     display: inline-block;
@@ -33,4 +37,35 @@
     display: inline-block;
     float: left;
     margin-right: 30px;
+}
+
+
+.title {
+
+}
+
+.subtitle {
+  color: #858585;
+  font-weight: 600;
+}
+
+.div-button {
+  margin-top: 35px;
+}
+
+.button-more {
+  border: 1px solid black;
+  font-size: 15px;
+  padding: 10px 17px;
+  background-color: #151515;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-more:hover {
+  background-color: #FAFAFA;
+  color: #151515;
+  border: 1px solid black;
 }
