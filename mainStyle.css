@@ -11,17 +11,17 @@
     text-align: left;
     height: 70px;
 }
-.divbutton{
+.divbutton {
     display: inline-block;
     border: none;
 
 
 
 }
-.summary{
+.summary {
     display: inline-block;
 }
-.boton{
+.boton {
     border: none;
     border-radius: 15%;
 }
@@ -41,22 +41,33 @@
 
 
 .title {
+  font-size: 70px;
 
 }
 
 .subtitle {
   color: #858585;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.div-container {
+display: flex;
+}
+
+.container-title {
+  margin-top: 10px;
+  margin-left: 120px;
 }
 
 .div-button {
-  margin-top: 35px;
+  margin-top: 45px;
 }
 
 .button-more {
   border: 1px solid black;
   font-size: 15px;
-  padding: 10px 17px;
+  padding: 10px 23px;
   background-color: #151515;
   color: white;
   font-weight: bold;
@@ -68,4 +79,13 @@
   background-color: #FAFAFA;
   color: #151515;
   border: 1px solid black;
+}
+
+.container-image {
+}
+
+.image-footer {
+  width: 80px;
+  margin-top: 90px;
+  margin-right: 30px;
 }
